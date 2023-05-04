@@ -518,7 +518,7 @@ figure4=function(filePath){
 
         // title
         svg.append("text")
-            .attr("x", width/2.3)
+            .attr("x", width/3)
             .attr("y", height/1.25)
             .text("Listings per Neighborhood")
             .attr("transform", "translate(0, 50)")
