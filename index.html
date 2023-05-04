@@ -1,0 +1,111 @@
+<html>  
+<head>  
+<script type="text/javascript" src="app.js"></script>  
+<link rel="stylesheet" href="styles.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+<body onload=finalProject()> 
+
+
+<div>
+<h2 class="section">Final Project</h2>
+Story telling.
+<br>
+<div>
+<h3>Figure 1:</h3>
+Choice of color scheme: I chose the color since it is one of colors used by AirBNB. <br/>
+Marks and channels: Has a point mark. Channels are positions of both horizontal vertical.<br/>
+This visualization serves to find a correlation between prices and a listing's popularity. This data, based off of the listings room type, can allow for AirBNB to suggest prices for optimizing sales when a host sets a listing's price.
+
+<div id="fig1">
+
+    </div>
+    <h4>Plot:</h4>
+    <div id="radio_fig1" class="center_plot">
+        <input type="radio" id="f1_pr" name="region" value="Private Room" checked="checked">
+        <label for="Private Room">Private Room</label>
+        <input type="radio" id="f1_eha" name="region" value="Entire Home/Apartment">
+        <label for="Entire Home/Apartment">Entire Home/Apartment</label>
+        <input type="radio" id="f1_sr" name="region" value="Shared Room">
+        <label for="Shared Room">Shared Room's</label>
+    </div>
+    <div id="fig1_plot" class="center_plot">
+    </div><br>
+    
+</div>    
+</div>
+    
+<div>
+<h3>Figure 2:</h3>
+Choice of color scheme: This is the main color of AirBNB's logo<br/>
+Marks and channels: Mark is a line. Channels are both horizontal and vertical position.<br/>
+Knowing the average listing price in the most expensive neighborhoods is use for
+ two reasons. First, we can see what neighborhoods AirBNB might want to expand into, 
+ as in advertising to potential hosts. Second of all, it could give suggestions on what 
+ the average price is in the neighborhood of a host's listing.
+
+<div id="fig2">
+
+    </div>
+    <h4>Plot:</h4>
+    <div id="fig2_plot" class="center_plot">
+    </div>
+</div>    
+
+<div>
+<h3>Figure 3:</h3>
+Choice of color scheme: This orange shade is a secondary color used by AirBNB.<br/>
+Marks and channels: Marks is points. Channels are both horizontal and vertical position, as well as color.<br/>
+Knowing the distribution of price within a neighborhood (in this case, the top 15 most popular neighborhoods)
+allows for learning what price range per neighborhood leads to a listing being rented out.
+
+<div id="fig3">
+
+    </div>
+    <h4>Plot:</h4>
+    <div id="fig3_plot" class="center_plot">
+    </div>
+</div>    
+
+<h3>Figure 4:</h3>
+Choice of color scheme: The green background of land was chosen because it resembles land, and is also a secondary color used by AirBNB.<br/>
+Marks and channels: Marks would be points. Marks would be both horizontal and vertical position as for latitude and longitude. Another mark is size, as in area of the circle, representing the popularity of a particular neighborhood.<br/>
+This map provides intuitive high-level geo-location information on where the most listings are located. Hovering over data points gives the neighborhoods name and number of listings within said neighborhood.
+
+
+<div id="fig4">
+
+    </div>
+    <h4>Plot:</h4>
+    <div id="fig4_plot" class="center_plot">
+    </div>
+</div>    
+
+<h3>Figure 5:</h3>
+Choice of color scheme: The color is the main color used in the AirBNB logo.<br/>
+Marks and channels: Marks would be lines and areas. Channel would be vertical position of the prices, and horizontal position of room type.<br/>
+These boxplots give descriptive statistics on the quartiles, median value, and range of different type of rooms, giving information on the underlying distribution of different types of listings.
+
+<div id="fig5">
+
+    </div>
+    <h4>Plot:</h4>
+    <div id="radio_fig5" class="center_plot">
+        <input type="radio" id="f5_pr" name="region" value="Private Room" checked="checked">
+        <label for="Private Room">Private Room</label>
+        <input type="radio" id="f5_eha" name="region" value="Entire Home/Apartment">
+        <label for="Entire Home/Apartment">Entire Home/Apartment</label>
+        <input type="radio" id="f5_sr" name="region" value="Shared Room">
+        <label for="Shared Room">Shared Room's</label>
+    </div>
+    <div id="fig5_plot" class="center_plot">
+    </div>
+</div>    
+   
+
+
+    
+   
+</body>  
+</html>  
